@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style2.css') }}">
+    <title>Welcome</title>
+</head>
+<body>
+    <main class="container">
+        <p><b>In Madad we:</b></p>
+        <section class="animation">
+          <div class="first"><div><b>Unearthing Potential,</b> </div></div>
+          <div class="second"><div><b>One Soil Type, </b></div></div>
+          <div class="third"><div><b>At a Time</b></div></div>
+        </section>
+      </main>
+        <script>
+            // Redirect  to index.html after the animation
+            setTimeout(function() {
+                window.location.href = "/login_signup";
+            }, 3000); // Adjust time to match the total of animation-duration + animation-delay
+        </script>
+    </body>
+    </html>
