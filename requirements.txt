@@ -1,0 +1,10 @@
+firebase_admin==6.5.0
+Flask==3.0.3
+Flask_Cors==4.0.1
+numpy==1.23.3
+pandas==1.5.2
+Pillow==10.4.0
+Pyrebase4==4.7.1
+scikit_learn==1.2.0
+tensorflow==2.10.0
+Werkzeug==3.0.3
